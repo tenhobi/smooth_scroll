@@ -28,7 +28,7 @@ class SmoothScroll {
   /// * [duration] - sets animation duration time
   /// * [diff] - sets difference to scroll. _CONSIDER for subtraction menu height._
   /// * [easing] - sets animation style. _**DO** import 'package:animation/animation.dart' show Easing;_
-  SmoothScroll(this.selector, {this.duration: 1000, this.diff: 0, this.easing: Easing.QUADRATIC_EASY_IN_OUT}) {
+  SmoothScroll(this.selector, {this.duration: 1000, this.diff: 0, this.easing: Easing.CUBIC_EASY_IN_OUT}) {
     querySelectorAll(this.selector)..onClick.listen(_scroll);
   }
 
