@@ -1,8 +1,9 @@
 name: smooth_scroll
-version: 0.0.1
+version: 0.0.2
 author: Honza Bittner <the@honzabittner.cz>
 description: A Dart library for smooth scroll effect on a web page.
+homepage: https://github.com/HonzaBittner/smooth_scroll
+environment:
+  sdk: '>=0.8.10+6 <2.0.0'
 dependencies:
-  sdk: '>=1.0.0 <2.0.0'
-dev_dependencies:
-  animation: ">=0.5.24 <0.6.0"
+  animation: '>=0.5.24 <0.6.0'
